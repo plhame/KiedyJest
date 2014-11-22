@@ -41,3 +41,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+/KiedyJestWeb/bin
+/KiedyJestWeb/obj/Debug
+/KiedyJestWeb.Tests/bin/Debug
+/KiedyJestWeb.Tests/obj/Debug
+*.user
+/packages
+*.suo
