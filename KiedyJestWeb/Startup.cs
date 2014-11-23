@@ -1,14 +1,16 @@
 ﻿using Microsoft.Owin;
-using Owin;
 
-[assembly: OwinStartupAttribute(typeof(KiedyJestWeb.Startup))]
+[assembly: OwinStartup(typeof(KiedyJestWeb.Startup))]
 namespace KiedyJestWeb
 {
+    using Owin;
+
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            // Add whatever you want to do with the OWIN app builder here.
+            // Typically the whole authentication layer is added here. Not used in this app at all.
         }
     }
 }
