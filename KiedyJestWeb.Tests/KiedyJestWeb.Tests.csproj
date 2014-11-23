@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\PrivateGit\KiedyJest\KiedyJestWeb\KiedyJestWeb.csproj">
+    <ProjectReference Include="..\KiedyJestWeb\KiedyJestWeb.csproj">
       <Project>{2D4B575C-4ED7-49C3-8706-E8CA989FC685}</Project>
       <Name>KiedyJestWeb</Name>
     </ProjectReference>
