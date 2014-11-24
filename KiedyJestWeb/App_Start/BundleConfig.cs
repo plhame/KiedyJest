@@ -2,6 +2,9 @@
 {
     using System.Web.Optimization;
 
+    /// <summary>
+    /// A configuration class for setting up script bundles.
+    /// </summary>
     public class BundleConfig
     {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862

@@ -2,6 +2,9 @@
 {
     using System.Web.Http;
 
+    /// <summary>
+    /// A configuration class for setting up WebAPI routes
+    /// </summary>
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)

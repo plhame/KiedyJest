@@ -3,6 +3,9 @@
     using System.Web.Mvc;
     using System.Web.Routing;
 
+    /// <summary>
+    /// A configuration class for setting up MVC routes
+    /// </summary>
     public class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)
